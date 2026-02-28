@@ -1,0 +1,48 @@
+# ── Python ──────────────────────────────────────
+backend/venv/
+backend/__pycache__/
+backend/pipeline/__pycache__/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ── Secrets (never commit) ───────────────────────
+backend/.env
+**/.env
+**/.env.local
+**/.env.*.local
+
+# ── Generated outputs ────────────────────────────
+backend/outputs/
+backend/temp/
+
+# ── Node / Next.js ───────────────────────────────
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ── OS ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ── Internal / Agent files ────────────────────────
+.agents/
+.claude/
+temp_ailabs/
+temp_superpowers/
+backend/1.0.0
